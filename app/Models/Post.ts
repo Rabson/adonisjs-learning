@@ -6,7 +6,7 @@ export default class Post extends BaseModel {
   @column({ isPrimary: true })
   public id: number
 
-  @column({ isPrimary: true })
+  @column()
   public image: string
 
   @column()
